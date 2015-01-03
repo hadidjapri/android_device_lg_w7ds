@@ -231,3 +231,5 @@ ifneq ($(TARGET_BUILD_VARIANT),user)
 	BOARD_SEPOLICY_UNION += su.te
 endif
 
+ENABLE_GRAPHITE := true
+
